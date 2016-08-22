@@ -1,0 +1,23 @@
+{
+  "name": "platzigram",
+  "version": "0.1.0",
+  "description": "platxigram",
+  "main": "server.js",
+  "scripts": {
+    "lint": "standard",
+    "serve": "node server.js",
+    "start": "npm run lint && npm run serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "platzi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "materialize-css": "^0.97.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "standard": "^8.0.0-beta.5"
+  }
+}

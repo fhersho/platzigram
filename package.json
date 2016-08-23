@@ -4,6 +4,7 @@
   "description": "platxigram",
   "main": "server.js",
   "scripts": {
+    "build": "gulp",
     "lint": "standard",
     "serve": "node server.js",
     "start": "npm run lint && npm run serve",
@@ -15,9 +16,18 @@
     "express": "^4.14.0"
   },
   "devDependencies": {
-    "materialize-css": "^0.97.7",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2",
-    "standard": "^8.0.0-beta.5"
+    "materialize-css": "^0.97.7",
+    "standard": "^8.0.0-beta.5",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  },
+  "standard": {
+    "ignore": [
+      "public"
+    ]
   }
 }
